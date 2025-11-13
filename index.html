@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="icon" type="image/x-icon" href="/checklist.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app-container">
+        <header>
+            <h1>My To-Do List 🌸</h1>
+        </header>
+        
+        <form id="task-form">
+            <input 
+                type="text" 
+                id="task-input" 
+                placeholder="Add a new task..." 
+                autocomplete="off"
+            >
+
+            <input 
+                type="text" 
+                id="category-input" 
+                placeholder="Category" 
+                autocomplete="off"
+            >
+            <select id="priority-select">
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+                <option value="low">Low</option>
+            </select>
+            <button type="submit">Add</button>
+        </form>
+        
+        <section class="task-list-container">
+            <ul id="task-list">
+                </ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
