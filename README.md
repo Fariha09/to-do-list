@@ -1,3 +1,5 @@
+![To-do-list app](./images/To-do-list app.png)
+
 # To-Do List Application
 
 ## Overview
