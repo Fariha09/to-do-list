@@ -1,4 +1,4 @@
-![To-do-list app](./images/To-do-list app.png)
+<img width="1127" height="647" alt="To-do-list app" src="https://github.com/user-attachments/assets/ef8f34ef-64f1-4d5b-8fe3-580395430171" />
 
 # To-Do List Application
 
